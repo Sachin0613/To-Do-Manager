@@ -101,6 +101,24 @@ function App() {
                 <button onClick={(e) => { handleDelete(e, item.id) }} className='bg-violet-800 hover:bg-violet-950 p-2 py-1 text-sm font-bold text-white rounded-md mx-1'><AiFillDelete /></button>
               </div>
             </div>
+      <div className="flex gap-4">
+        <a
+          href="https://www.linkedin.com/in/sachin-yadav-631b6031a/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:text-blue-400 transition-colors"
+        >
+          LinkedIn
+        </a>
+        <a
+          href="https://github.com/Sachin0613"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="hover:text-gray-400 transition-colors"
+        >
+          GitHub
+        </a>
+      </div>
           })}
         </div>
         
